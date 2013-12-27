@@ -19,6 +19,7 @@
 		0F9456F4186E0F6300925EA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456DC186E0F6300925EA2 /* UIKit.framework */; };
 		0F9456FC186E0F6300925EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F9456FA186E0F6300925EA2 /* InfoPlist.strings */; };
 		0F9456FE186E0F6300925EA2 /* Kryss_og_BolleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */; };
+		0FC7246A186E1678003BDA68 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72469186E1678003BDA68 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0F9456F9186E0F6300925EA2 /* Kryss og BolleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kryss og BolleTests-Info.plist"; sourceTree = "<group>"; };
 		0F9456FB186E0F6300925EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kryss_og_BolleTests.m; sourceTree = "<group>"; };
+		0FC72469186E1678003BDA68 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0F9456E7186E0F6300925EA2 /* HelloWorldAppDelegate.h */,
 				0F9456E8186E0F6300925EA2 /* HelloWorldAppDelegate.m */,
 				0F9456EA186E0F6300925EA2 /* Images.xcassets */,
+				0FC72469186E1678003BDA68 /* README.md */,
 				0F9456DF186E0F6300925EA2 /* Supporting Files */,
 			);
 			path = "Kryss og Bolle";
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC7246A186E1678003BDA68 /* README.md in Resources */,
 				0F9456E3186E0F6300925EA2 /* InfoPlist.strings in Resources */,
 				0F9456EB186E0F6300925EA2 /* Images.xcassets in Resources */,
 			);
@@ -442,6 +446,7 @@
 				0F945703186E0F6300925EA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F945704186E0F6300925EA2 /* Build configuration list for PBXNativeTarget "Kryss og BolleTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +455,7 @@
 				0F945706186E0F6300925EA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
