@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DFAEDC23-A487-4FC2-9D49-B5389338FA3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kryss og Bolle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7D15B01A-B48F-47AD-9E9B-E40988B06CD4</key>
+		<string>ssh://github.com/rubendw/xogbolle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kryss og Bolle.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7D15B01A-B48F-47AD-9E9B-E40988B06CD4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/rubendw/xogbolle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7D15B01A-B48F-47AD-9E9B-E40988B06CD4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7D15B01A-B48F-47AD-9E9B-E40988B06CD4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xogbolle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
