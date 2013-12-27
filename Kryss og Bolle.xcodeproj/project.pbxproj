@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9456D9186E0F6300925EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456D8186E0F6300925EA2 /* Foundation.framework */; };
+		0F9456DB186E0F6300925EA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456DA186E0F6300925EA2 /* CoreGraphics.framework */; };
+		0F9456DD186E0F6300925EA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456DC186E0F6300925EA2 /* UIKit.framework */; };
+		0F9456E3186E0F6300925EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F9456E1186E0F6300925EA2 /* InfoPlist.strings */; };
+		0F9456E5186E0F6300925EA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9456E4186E0F6300925EA2 /* main.m */; };
+		0F9456E9186E0F6300925EA2 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9456E8186E0F6300925EA2 /* HelloWorldAppDelegate.m */; };
+		0F9456EB186E0F6300925EA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9456EA186E0F6300925EA2 /* Images.xcassets */; };
+		0F9456F2186E0F6300925EA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456F1186E0F6300925EA2 /* XCTest.framework */; };
+		0F9456F3186E0F6300925EA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456D8186E0F6300925EA2 /* Foundation.framework */; };
+		0F9456F4186E0F6300925EA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9456DC186E0F6300925EA2 /* UIKit.framework */; };
+		0F9456FC186E0F6300925EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F9456FA186E0F6300925EA2 /* InfoPlist.strings */; };
+		0F9456FE186E0F6300925EA2 /* Kryss_og_BolleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F9456F5186E0F6300925EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F9456CD186E0F6300925EA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F9456D4186E0F6300925EA2;
+			remoteInfo = "Kryss og Bolle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9456D5186E0F6300925EA2 /* Kryss og Bolle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kryss og Bolle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9456D8186E0F6300925EA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F9456DA186E0F6300925EA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F9456DC186E0F6300925EA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F9456E0186E0F6300925EA2 /* Kryss og Bolle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kryss og Bolle-Info.plist"; sourceTree = "<group>"; };
+		0F9456E2186E0F6300925EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F9456E4186E0F6300925EA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F9456E6186E0F6300925EA2 /* Kryss og Bolle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kryss og Bolle-Prefix.pch"; sourceTree = "<group>"; };
+		0F9456E7186E0F6300925EA2 /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		0F9456E8186E0F6300925EA2 /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		0F9456EA186E0F6300925EA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F9456F0186E0F6300925EA2 /* Kryss og BolleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kryss og BolleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9456F1186E0F6300925EA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0F9456F9186E0F6300925EA2 /* Kryss og BolleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kryss og BolleTests-Info.plist"; sourceTree = "<group>"; };
+		0F9456FB186E0F6300925EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kryss_og_BolleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9456D2186E0F6300925EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9456DB186E0F6300925EA2 /* CoreGraphics.framework in Frameworks */,
+				0F9456DD186E0F6300925EA2 /* UIKit.framework in Frameworks */,
+				0F9456D9186E0F6300925EA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9456ED186E0F6300925EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9456F2186E0F6300925EA2 /* XCTest.framework in Frameworks */,
+				0F9456F4186E0F6300925EA2 /* UIKit.framework in Frameworks */,
+				0F9456F3186E0F6300925EA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F9456CC186E0F6300925EA2 = {
+			isa = PBXGroup;
+			children = (
+				0F9456DE186E0F6300925EA2 /* Kryss og Bolle */,
+				0F9456F7186E0F6300925EA2 /* Kryss og BolleTests */,
+				0F9456D7186E0F6300925EA2 /* Frameworks */,
+				0F9456D6186E0F6300925EA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F9456D6186E0F6300925EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9456D5186E0F6300925EA2 /* Kryss og Bolle.app */,
+				0F9456F0186E0F6300925EA2 /* Kryss og BolleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9456D7186E0F6300925EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F9456D8186E0F6300925EA2 /* Foundation.framework */,
+				0F9456DA186E0F6300925EA2 /* CoreGraphics.framework */,
+				0F9456DC186E0F6300925EA2 /* UIKit.framework */,
+				0F9456F1186E0F6300925EA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F9456DE186E0F6300925EA2 /* Kryss og Bolle */ = {
+			isa = PBXGroup;
+			children = (
+				0F9456E7186E0F6300925EA2 /* HelloWorldAppDelegate.h */,
+				0F9456E8186E0F6300925EA2 /* HelloWorldAppDelegate.m */,
+				0F9456EA186E0F6300925EA2 /* Images.xcassets */,
+				0F9456DF186E0F6300925EA2 /* Supporting Files */,
+			);
+			path = "Kryss og Bolle";
+			sourceTree = "<group>";
+		};
+		0F9456DF186E0F6300925EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F9456E0186E0F6300925EA2 /* Kryss og Bolle-Info.plist */,
+				0F9456E1186E0F6300925EA2 /* InfoPlist.strings */,
+				0F9456E4186E0F6300925EA2 /* main.m */,
+				0F9456E6186E0F6300925EA2 /* Kryss og Bolle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F9456F7186E0F6300925EA2 /* Kryss og BolleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */,
+				0F9456F8186E0F6300925EA2 /* Supporting Files */,
+			);
+			path = "Kryss og BolleTests";
+			sourceTree = "<group>";
+		};
+		0F9456F8186E0F6300925EA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F9456F9186E0F6300925EA2 /* Kryss og BolleTests-Info.plist */,
+				0F9456FA186E0F6300925EA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F9456D4186E0F6300925EA2 /* Kryss og Bolle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F945701186E0F6300925EA2 /* Build configuration list for PBXNativeTarget "Kryss og Bolle" */;
+			buildPhases = (
+				0F9456D1186E0F6300925EA2 /* Sources */,
+				0F9456D2186E0F6300925EA2 /* Frameworks */,
+				0F9456D3186E0F6300925EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kryss og Bolle";
+			productName = "Kryss og Bolle";
+			productReference = 0F9456D5186E0F6300925EA2 /* Kryss og Bolle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F9456EF186E0F6300925EA2 /* Kryss og BolleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F945704186E0F6300925EA2 /* Build configuration list for PBXNativeTarget "Kryss og BolleTests" */;
+			buildPhases = (
+				0F9456EC186E0F6300925EA2 /* Sources */,
+				0F9456ED186E0F6300925EA2 /* Frameworks */,
+				0F9456EE186E0F6300925EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F9456F6186E0F6300925EA2 /* PBXTargetDependency */,
+			);
+			name = "Kryss og BolleTests";
+			productName = "Kryss og BolleTests";
+			productReference = 0F9456F0186E0F6300925EA2 /* Kryss og BolleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F9456CD186E0F6300925EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Wangum;
+				TargetAttributes = {
+					0F9456EF186E0F6300925EA2 = {
+						TestTargetID = 0F9456D4186E0F6300925EA2;
+					};
+				};
+			};
+			buildConfigurationList = 0F9456D0186E0F6300925EA2 /* Build configuration list for PBXProject "Kryss og Bolle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F9456CC186E0F6300925EA2;
+			productRefGroup = 0F9456D6186E0F6300925EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F9456D4186E0F6300925EA2 /* Kryss og Bolle */,
+				0F9456EF186E0F6300925EA2 /* Kryss og BolleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F9456D3186E0F6300925EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9456E3186E0F6300925EA2 /* InfoPlist.strings in Resources */,
+				0F9456EB186E0F6300925EA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9456EE186E0F6300925EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9456FC186E0F6300925EA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F9456D1186E0F6300925EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9456E9186E0F6300925EA2 /* HelloWorldAppDelegate.m in Sources */,
+				0F9456E5186E0F6300925EA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F9456EC186E0F6300925EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9456FE186E0F6300925EA2 /* Kryss_og_BolleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F9456F6186E0F6300925EA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F9456D4186E0F6300925EA2 /* Kryss og Bolle */;
+			targetProxy = 0F9456F5186E0F6300925EA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F9456E1186E0F6300925EA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F9456E2186E0F6300925EA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F9456FA186E0F6300925EA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F9456FB186E0F6300925EA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F9456FF186E0F6300925EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F945700186E0F6300925EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F945702186E0F6300925EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kryss og Bolle/Kryss og Bolle-Prefix.pch";
+				INFOPLIST_FILE = "Kryss og Bolle/Kryss og Bolle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F945703186E0F6300925EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kryss og Bolle/Kryss og Bolle-Prefix.pch";
+				INFOPLIST_FILE = "Kryss og Bolle/Kryss og Bolle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0F945705186E0F6300925EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kryss og Bolle.app/Kryss og Bolle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kryss og Bolle/Kryss og Bolle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kryss og BolleTests/Kryss og BolleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0F945706186E0F6300925EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kryss og Bolle.app/Kryss og Bolle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kryss og Bolle/Kryss og Bolle-Prefix.pch";
+				INFOPLIST_FILE = "Kryss og BolleTests/Kryss og BolleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F9456D0186E0F6300925EA2 /* Build configuration list for PBXProject "Kryss og Bolle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9456FF186E0F6300925EA2 /* Debug */,
+				0F945700186E0F6300925EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F945701186E0F6300925EA2 /* Build configuration list for PBXNativeTarget "Kryss og Bolle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F945702186E0F6300925EA2 /* Debug */,
+				0F945703186E0F6300925EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F945704186E0F6300925EA2 /* Build configuration list for PBXNativeTarget "Kryss og BolleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F945705186E0F6300925EA2 /* Debug */,
+				0F945706186E0F6300925EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F9456CD186E0F6300925EA2 /* Project object */;
+}
