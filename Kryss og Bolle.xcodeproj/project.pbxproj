@@ -20,6 +20,8 @@
 		0F9456FC186E0F6300925EA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F9456FA186E0F6300925EA2 /* InfoPlist.strings */; };
 		0F9456FE186E0F6300925EA2 /* Kryss_og_BolleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */; };
 		0FC7246A186E1678003BDA68 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0FC72469186E1678003BDA68 /* README.md */; };
+		0FC7246E186E1B3F003BDA68 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC7246C186E1B3F003BDA68 /* HelloWorldViewController.m */; };
+		0FC7246F186E1B3F003BDA68 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC7246D186E1B3F003BDA68 /* HelloWorldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		0F9456FB186E0F6300925EA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F9456FD186E0F6300925EA2 /* Kryss_og_BolleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kryss_og_BolleTests.m; sourceTree = "<group>"; };
 		0FC72469186E1678003BDA68 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		0FC7246B186E1B3F003BDA68 /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		0FC7246C186E1B3F003BDA68 /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		0FC7246D186E1B3F003BDA68 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 				0F9456EA186E0F6300925EA2 /* Images.xcassets */,
 				0FC72469186E1678003BDA68 /* README.md */,
 				0F9456DF186E0F6300925EA2 /* Supporting Files */,
+				0FC7246B186E1B3F003BDA68 /* HelloWorldViewController.h */,
+				0FC7246C186E1B3F003BDA68 /* HelloWorldViewController.m */,
+				0FC7246D186E1B3F003BDA68 /* HelloWorldViewController.xib */,
 			);
 			path = "Kryss og Bolle";
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC7246F186E1B3F003BDA68 /* HelloWorldViewController.xib in Resources */,
 				0FC7246A186E1678003BDA68 /* README.md in Resources */,
 				0F9456E3186E0F6300925EA2 /* InfoPlist.strings in Resources */,
 				0F9456EB186E0F6300925EA2 /* Images.xcassets in Resources */,
@@ -245,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9456E9186E0F6300925EA2 /* HelloWorldAppDelegate.m in Sources */,
+				0FC7246E186E1B3F003BDA68 /* HelloWorldViewController.m in Sources */,
 				0F9456E5186E0F6300925EA2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
