@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Wangum. All rights reserved.
 //
 
-#import "HelloWorldAppDelegate.h"
-#import "HelloWorldViewController.h"
+#import "AppDelegate.h"
+#import "ViewController.h"
 
-@implementation HelloWorldAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -17,7 +17,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
-    HelloWorldViewController *viewController = [[HelloWorldViewController alloc] initWithNibName:@"HelloWorldViewController" bundle:nil];
+    ViewController *viewController = [[ViewController alloc] initWithNibName:@"HelloWorldViewController" bundle:nil];
     self.window.rootViewController = viewController;
     
     [self.window makeKeyAndVisible];

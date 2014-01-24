@@ -1,18 +1,10 @@
-//
-//  HelloWorldViewController.m
-//  Kryss og Bolle
-//
-//  Created by Wangberg, Ruben on 27.12.13.
-//  Copyright (c) 2013 Wangum. All rights reserved.
-//
+#import "ViewController.h"
 
-#import "HelloWorldViewController.h"
-
-@interface HelloWorldViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation HelloWorldViewController
+@implementation ViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
